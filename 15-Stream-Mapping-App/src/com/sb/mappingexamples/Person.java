@@ -6,7 +6,7 @@ public class Person {
 	private long phno;
 	
 	public Person() {
-		
+		System.out.println("Person.Person()");
 	}
 	public Person(String name, String job, long phno) {
 		super();
